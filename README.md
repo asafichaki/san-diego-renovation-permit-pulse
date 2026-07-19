@@ -12,6 +12,14 @@ Zero-install documentation access for compatible AI clients:
 
 https://gitmcp.io/asafichaki/san-diego-renovation-permit-pulse
 
+Responsive embed for local publishers and newsletters:
+
+```html
+<iframe src="https://asafichaki.github.io/san-diego-renovation-permit-pulse/embed.html" title="San Diego renovation permit pulse" width="100%" height="480" loading="lazy" style="border:0;max-width:760px"></iframe>
+```
+
+See the [press and reuse kit](PRESS-KIT.md) for defensible findings, story angles, source links, and interpretation guardrails.
+
 ## Key interpretation
 
 - The unit is a unique City `PROJECT_ID` within each keyword category, using the earliest matching 2026 issue date.

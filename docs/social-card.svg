@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f4f1e9"/>
+  <rect x="70" y="65" width="1060" height="500" rx="34" fill="#fffdf7" stroke="#d9d4c9"/>
+  <text x="115" y="125" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#194c3b">OPEN CIVIC-DATA BRIEF · 2026 YTD</text>
+  <text x="115" y="210" font-family="Georgia, serif" font-size="62" fill="#17201c">San Diego renovation</text>
+  <text x="115" y="278" font-family="Georgia, serif" font-size="62" fill="#17201c">permit &amp; cost pulse</text>
+  <text x="115" y="326" font-family="Arial, sans-serif" font-size="22" fill="#657069">Public City approvals · privacy-preserving aggregates · reproducible method</text>
+  <rect x="115" y="374" width="250" height="125" rx="20" fill="#b7e45d"/>
+  <text x="140" y="410" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#194c3b">RELEVANT PROJECTS</text>
+  <text x="140" y="472" font-family="Georgia, serif" font-size="56" fill="#17201c">1,601</text>
+  <rect x="395" y="374" width="250" height="125" rx="20" fill="#194c3b"/>
+  <text x="420" y="410" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#b7e45d">MEDIAN ELAPSED</text>
+  <text x="420" y="472" font-family="Georgia, serif" font-size="56" fill="#ffffff">150 days</text>
+  <rect x="675" y="374" width="410" height="125" rx="20" fill="#eadfc9"/>
+  <text x="700" y="410" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#ff765e">SOURCE-LINKED</text>
+  <text x="700" y="448" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#17201c">CSV · JSON · GitMCP</text>
+  <text x="700" y="480" font-family="Arial, sans-serif" font-size="18" fill="#657069">Published by Renology</text>
+  <text x="1030" y="535" text-anchor="end" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#17201c">RENOLOGY</text>
+</svg>
