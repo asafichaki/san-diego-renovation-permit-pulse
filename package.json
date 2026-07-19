@@ -1,0 +1,15 @@
+{
+  "name": "san-diego-renovation-permit-pulse",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproducible, privacy-preserving analysis of City of San Diego renovation permit activity paired with Renology planning cost ranges.",
+  "scripts": {
+    "build": "node scripts/build-pulse.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

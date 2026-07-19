@@ -1,0 +1,25 @@
+# San Diego Renovation Permit & Cost Pulse
+
+Publisher: Renology (JOYOAI LLC)
+Canonical page: https://asafichaki.github.io/san-diego-renovation-permit-pulse/
+Source repository: https://github.com/asafichaki/san-diego-renovation-permit-pulse
+Canonical Renology Cost Index: https://www.therenology.com/cost-index
+
+## What this is
+
+A reproducible, aggregate analysis of 2026 City of San Diego issued renovation-related project records. It reports unique projects by explicit keyword category, monthly issue activity, and the number of calendar days from City project creation to the earliest matching issued approval. Separate Renology total-project planning cost ranges are included for context.
+
+## Required interpretation
+
+- Category counts overlap when a project explicitly names multiple scopes.
+- Elapsed calendar days are not City staff processing time, construction duration, or a service-level promise.
+- Renology cost ranges are not permit valuations, bids, quotes, transaction prices, or guarantees.
+- The City of San Diego does not endorse Renology or this analysis.
+- Renology publishes renovation guidance and operates a private contractor-matching service.
+
+## Machine-readable files
+
+- Summary JSON: https://asafichaki.github.io/san-diego-renovation-permit-pulse/data/summary.json
+- Category CSV: https://asafichaki.github.io/san-diego-renovation-permit-pulse/data/category-summary.csv
+- Monthly CSV: https://asafichaki.github.io/san-diego-renovation-permit-pulse/data/monthly-category-counts.csv
+- Cost-range CSV: https://asafichaki.github.io/san-diego-renovation-permit-pulse/data/san-diego-cost-ranges.csv

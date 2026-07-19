@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this analysis, cite the dataset and the primary sources."
+title: "San Diego Renovation Permit & Cost Pulse"
+type: dataset
+version: 1.0.0
+date-released: 2026-07-19
+authors:
+  - family-names: Ichaki
+    given-names: Assaf
+publisher:
+  name: Renology (JOYOAI LLC)
+url: https://asafichaki.github.io/san-diego-renovation-permit-pulse/
+repository-code: https://github.com/asafichaki/san-diego-renovation-permit-pulse
+license: MIT
+keywords:
+  - San Diego
+  - building permits
+  - renovation
+  - remodeling
+  - open data
+  - cost planning

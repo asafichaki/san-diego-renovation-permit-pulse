@@ -1,0 +1,279 @@
+{
+  "title": "San Diego Renovation Permit & Cost Pulse",
+  "edition": "2026 year to date",
+  "generated_at": "2026-07-19",
+  "city_source_last_modified": "2026-07-17",
+  "last_issue_date_in_analysis": "2026-07-16",
+  "relevant_unique_projects": 1601,
+  "project_category_observations": 2719,
+  "projects_with_elapsed_days": 1601,
+  "median_elapsed_calendar_days": 150,
+  "categories": [
+    {
+      "category": "ADU",
+      "issued_projects": 741,
+      "projects_with_elapsed_days": 741,
+      "median_elapsed_calendar_days": 269,
+      "p25_elapsed_calendar_days": 154,
+      "p75_elapsed_calendar_days": 474
+    },
+    {
+      "category": "Kitchen",
+      "issued_projects": 385,
+      "projects_with_elapsed_days": 385,
+      "median_elapsed_calendar_days": 73,
+      "p25_elapsed_calendar_days": 22,
+      "p75_elapsed_calendar_days": 189
+    },
+    {
+      "category": "Bathroom",
+      "issued_projects": 658,
+      "projects_with_elapsed_days": 658,
+      "median_elapsed_calendar_days": 57,
+      "p25_elapsed_calendar_days": 7,
+      "p75_elapsed_calendar_days": 176
+    },
+    {
+      "category": "Roofing",
+      "issued_projects": 60,
+      "projects_with_elapsed_days": 60,
+      "median_elapsed_calendar_days": 225,
+      "p25_elapsed_calendar_days": 79,
+      "p75_elapsed_calendar_days": 313
+    },
+    {
+      "category": "General remodel",
+      "issued_projects": 875,
+      "projects_with_elapsed_days": 875,
+      "median_elapsed_calendar_days": 78,
+      "p25_elapsed_calendar_days": 13,
+      "p75_elapsed_calendar_days": 214
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2026-01",
+      "category": "ADU",
+      "issued_projects": 125
+    },
+    {
+      "month": "2026-01",
+      "category": "Kitchen",
+      "issued_projects": 62
+    },
+    {
+      "month": "2026-01",
+      "category": "Bathroom",
+      "issued_projects": 104
+    },
+    {
+      "month": "2026-01",
+      "category": "Roofing",
+      "issued_projects": 12
+    },
+    {
+      "month": "2026-01",
+      "category": "General remodel",
+      "issued_projects": 135
+    },
+    {
+      "month": "2026-02",
+      "category": "ADU",
+      "issued_projects": 99
+    },
+    {
+      "month": "2026-02",
+      "category": "Kitchen",
+      "issued_projects": 41
+    },
+    {
+      "month": "2026-02",
+      "category": "Bathroom",
+      "issued_projects": 79
+    },
+    {
+      "month": "2026-02",
+      "category": "Roofing",
+      "issued_projects": 8
+    },
+    {
+      "month": "2026-02",
+      "category": "General remodel",
+      "issued_projects": 112
+    },
+    {
+      "month": "2026-03",
+      "category": "ADU",
+      "issued_projects": 138
+    },
+    {
+      "month": "2026-03",
+      "category": "Kitchen",
+      "issued_projects": 65
+    },
+    {
+      "month": "2026-03",
+      "category": "Bathroom",
+      "issued_projects": 106
+    },
+    {
+      "month": "2026-03",
+      "category": "Roofing",
+      "issued_projects": 8
+    },
+    {
+      "month": "2026-03",
+      "category": "General remodel",
+      "issued_projects": 141
+    },
+    {
+      "month": "2026-04",
+      "category": "ADU",
+      "issued_projects": 114
+    },
+    {
+      "month": "2026-04",
+      "category": "Kitchen",
+      "issued_projects": 57
+    },
+    {
+      "month": "2026-04",
+      "category": "Bathroom",
+      "issued_projects": 97
+    },
+    {
+      "month": "2026-04",
+      "category": "Roofing",
+      "issued_projects": 12
+    },
+    {
+      "month": "2026-04",
+      "category": "General remodel",
+      "issued_projects": 136
+    },
+    {
+      "month": "2026-05",
+      "category": "ADU",
+      "issued_projects": 105
+    },
+    {
+      "month": "2026-05",
+      "category": "Kitchen",
+      "issued_projects": 60
+    },
+    {
+      "month": "2026-05",
+      "category": "Bathroom",
+      "issued_projects": 108
+    },
+    {
+      "month": "2026-05",
+      "category": "Roofing",
+      "issued_projects": 8
+    },
+    {
+      "month": "2026-05",
+      "category": "General remodel",
+      "issued_projects": 144
+    },
+    {
+      "month": "2026-06",
+      "category": "ADU",
+      "issued_projects": 103
+    },
+    {
+      "month": "2026-06",
+      "category": "Kitchen",
+      "issued_projects": 68
+    },
+    {
+      "month": "2026-06",
+      "category": "Bathroom",
+      "issued_projects": 97
+    },
+    {
+      "month": "2026-06",
+      "category": "Roofing",
+      "issued_projects": 10
+    },
+    {
+      "month": "2026-06",
+      "category": "General remodel",
+      "issued_projects": 122
+    },
+    {
+      "month": "2026-07",
+      "category": "ADU",
+      "issued_projects": 57
+    },
+    {
+      "month": "2026-07",
+      "category": "Kitchen",
+      "issued_projects": 32
+    },
+    {
+      "month": "2026-07",
+      "category": "Bathroom",
+      "issued_projects": 67
+    },
+    {
+      "month": "2026-07",
+      "category": "Roofing",
+      "issued_projects": 2
+    },
+    {
+      "month": "2026-07",
+      "category": "General remodel",
+      "issued_projects": 85
+    }
+  ],
+  "costs": [
+    {
+      "category": "Roofing",
+      "low_usd": 15000,
+      "high_usd": 24000,
+      "price_basis": "total_project_planning_range"
+    },
+    {
+      "category": "Outdoor Living",
+      "low_usd": 24000,
+      "high_usd": 44000,
+      "price_basis": "total_project_planning_range"
+    },
+    {
+      "category": "Bathroom",
+      "low_usd": 33000,
+      "high_usd": 55000,
+      "price_basis": "total_project_planning_range"
+    },
+    {
+      "category": "Kitchen",
+      "low_usd": 61000,
+      "high_usd": 99000,
+      "price_basis": "total_project_planning_range"
+    },
+    {
+      "category": "Adu Garage",
+      "low_usd": 200000,
+      "high_usd": 350000,
+      "price_basis": "total_project_planning_range"
+    }
+  ],
+  "sources": {
+    "city_dataset_page": "https://data.sandiego.gov/datasets/development-permits/",
+    "city_csv": "https://seshat.datasd.org/development_permits/approvals_issued_2026_datasd.csv",
+    "city_terms": "https://data.sandiego.gov/help/guides/terms/",
+    "renology_cost_data": "https://www.therenology.com/cost-index/data.json",
+    "renology_cost_index": "https://www.therenology.com/cost-index",
+    "renology_methodology": "https://www.therenology.com/methodology"
+  },
+  "methodology": {
+    "unit": "Unique City project ID within each keyword category, using the earliest 2026 issue date among matching Building Permit or Combination Building Permit approvals.",
+    "residential_filter": "Records must contain explicit residential evidence in the building-code description or public project/approval text.",
+    "category_overlap": "A project may appear in more than one category when its public text explicitly names multiple scopes.",
+    "elapsed_metric": "Calendar days from the City project-create date to the earliest matching issued approval. It is not City staff processing time, construction duration, or a service-level promise.",
+    "privacy": "Only aggregate outputs are published. Addresses, coordinates, permit holders, scopes, and project-level rows are not redistributed.",
+    "cost_separation": "Renology planning cost ranges are shown separately. They are not permit valuations and are not joined to City permit records."
+  },
+  "disclosure": "Renology publishes renovation guidance and operates a private contractor-matching service. The City of San Diego does not endorse Renology or this analysis."
+}

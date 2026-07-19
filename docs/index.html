@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>San Diego Renovation Permit & Cost Pulse | Renology</title>
+  <meta name="description" content="A reproducible, privacy-preserving view of 2026 San Diego renovation permit activity, paired with separate Renology project planning cost ranges.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="San Diego Renovation Permit & Cost Pulse">
+  <meta property="og:description" content="Issued renovation projects, elapsed calendar-day distributions, monthly activity, and separate planning cost ranges.">
+  <meta property="og:url" content="https://asafichaki.github.io/san-diego-renovation-permit-pulse/">
+  <link rel="canonical" href="https://asafichaki.github.io/san-diego-renovation-permit-pulse/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "San Diego Renovation Permit & Cost Pulse, 2026 YTD",
+    "description": "Aggregate analysis of City of San Diego issued renovation-related project records, paired separately with Renology planning cost ranges.",
+    "url": "https://asafichaki.github.io/san-diego-renovation-permit-pulse/",
+    "creator": {"@type": "Organization", "name": "Renology", "url": "https://www.therenology.com/"},
+    "temporalCoverage": "2026",
+    "spatialCoverage": {"@type": "Place", "name": "San Diego, California"},
+    "isBasedOn": [
+      "https://data.sandiego.gov/datasets/development-permits/",
+      "https://www.therenology.com/cost-index"
+    ],
+    "distribution": [
+      {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://asafichaki.github.io/san-diego-renovation-permit-pulse/data/category-summary.csv"},
+      {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://asafichaki.github.io/san-diego-renovation-permit-pulse/data/summary.json"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="https://www.therenology.com/" rel="publisher">RENOLOGY</a>
+    <nav aria-label="Primary">
+      <a href="#findings">Findings</a>
+      <a href="#downloads">Data</a>
+      <a href="#methodology">Methodology</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">Open civic-data brief · 2026 YTD</div>
+      <h1>San Diego renovation activity, without the guesswork.</h1>
+      <p class="lede">A reproducible view of issued renovation-related projects from the City of San Diego’s public approvals data—paired with separate Renology planning cost ranges.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#findings">Explore the pulse</a>
+        <a class="button secondary" href="data/summary.json">Download JSON</a>
+      </div>
+      <p class="source-stamp" id="source-stamp">Loading the latest published snapshot…</p>
+    </section>
+
+    <section class="stat-grid" aria-label="Key findings">
+      <article class="stat-card accent"><span>Relevant projects</span><strong id="stat-projects">—</strong><small>Unique public City project IDs</small></article>
+      <article class="stat-card"><span>Median elapsed</span><strong id="stat-median">—</strong><small>Calendar days, project creation to first matching issue</small></article>
+      <article class="stat-card"><span>Project-category observations</span><strong id="stat-observations">—</strong><small>Categories may overlap</small></article>
+      <article class="stat-card"><span>Latest issue in snapshot</span><strong id="stat-latest">—</strong><small>2026 issued approvals only</small></article>
+    </section>
+
+    <section id="findings" class="section">
+      <div class="section-heading">
+        <div><div class="eyebrow">What the records show</div><h2>Issued projects by named scope</h2></div>
+        <p>Counts use explicit words in public project and approval text. One project can appear in multiple categories when multiple scopes are named.</p>
+      </div>
+      <div id="category-chart" class="chart" aria-live="polite"></div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <div class="eyebrow">Monthly pulse</div>
+        <h2>When relevant projects were issued</h2>
+        <p class="muted">The current month is partial. Updates to the source dataset can revise earlier records.</p>
+      </div>
+      <div id="monthly-chart" class="monthly-chart" aria-live="polite"></div>
+    </section>
+
+    <section class="section cost-section">
+      <div class="section-heading">
+        <div><div class="eyebrow">Separate planning benchmark</div><h2>San Diego project cost ranges</h2></div>
+        <p>Renology’s published total-project planning bands—not permit valuations, observed transaction prices, bids, or guarantees.</p>
+      </div>
+      <div id="cost-grid" class="cost-grid" aria-live="polite"></div>
+      <a class="text-link" href="https://www.therenology.com/cost-index">Read the canonical Renology Cost Index →</a>
+    </section>
+
+    <section id="downloads" class="section download-section">
+      <div><div class="eyebrow">Open, aggregate outputs</div><h2>Use the data, inspect the method.</h2><p>No addresses, coordinates, permit holders, scope text, or project-level rows are republished.</p></div>
+      <div class="download-grid">
+        <a href="data/category-summary.csv"><strong>Category summary</strong><span>CSV · counts and elapsed-day distribution</span></a>
+        <a href="data/monthly-category-counts.csv"><strong>Monthly activity</strong><span>CSV · category-by-month counts</span></a>
+        <a href="data/san-diego-cost-ranges.csv"><strong>Planning ranges</strong><span>CSV · separate Renology cost bands</span></a>
+        <a href="data/summary.json"><strong>Complete snapshot</strong><span>JSON · metrics, sources and caveats</span></a>
+      </div>
+    </section>
+
+    <section id="methodology" class="section methodology">
+      <div><div class="eyebrow">Methodology</div><h2>Careful by design.</h2></div>
+      <div class="method-grid">
+        <article><span>01</span><h3>Filter</h3><p>Use 2026 issued Building Permit and Combination Building Permit records with explicit residential evidence.</p></article>
+        <article><span>02</span><h3>Classify</h3><p>Assign keyword categories only when public text explicitly names ADU, kitchen, bathroom, roofing, renovation or remodeling.</p></article>
+        <article><span>03</span><h3>Deduplicate</h3><p>Count a City project once per category, using its earliest matching issue date.</p></article>
+        <article><span>04</span><h3>Protect</h3><p>Publish aggregates only. Never republish holder names, addresses, coordinates or project-level scope text.</p></article>
+      </div>
+      <div class="caveat"><strong>Read this metric correctly.</strong> “Elapsed calendar days” runs from the City project-create date to the first matching issued approval. It is not staff processing time, construction duration, or a promise of how long a new application will take.</div>
+    </section>
+
+    <section class="section sources">
+      <h2>Primary sources and disclosure</h2>
+      <ul>
+        <li><a href="https://data.sandiego.gov/datasets/development-permits/">City of San Diego: Approvals for development projects</a></li>
+        <li><a href="https://data.sandiego.gov/help/articles/tips-permits-approvals-housing/">City guidance for interpreting approvals data</a></li>
+        <li><a href="https://data.sandiego.gov/help/guides/terms/">City of San Diego Open Data Terms of Use</a></li>
+        <li><a href="https://www.therenology.com/cost-index">Renology Renovation Cost Index</a> and <a href="https://www.therenology.com/methodology">methodology</a></li>
+      </ul>
+      <p>Renology publishes renovation guidance and operates a private contractor-matching service. Cost figures are publisher-maintained planning benchmarks. The City of San Diego does not endorse Renology or this analysis.</p>
+    </section>
+  </main>
+
+  <footer><span>Published by <a href="https://www.therenology.com/">Renology</a></span><span><a href="https://github.com/asafichaki/san-diego-renovation-permit-pulse">Source and reproducibility</a></span></footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
