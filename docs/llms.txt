@@ -3,6 +3,7 @@
 Publisher: Renology (JOYOAI LLC)
 Canonical page: https://asafichaki.github.io/san-diego-renovation-permit-pulse/
 Source repository: https://github.com/asafichaki/san-diego-renovation-permit-pulse
+GitMCP endpoint: https://gitmcp.io/asafichaki/san-diego-renovation-permit-pulse
 Canonical Renology Cost Index: https://www.therenology.com/cost-index
 
 ## What this is

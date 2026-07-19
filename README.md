@@ -8,6 +8,10 @@ The public dashboard is designed as a citation-ready civic-data brief. It does n
 
 https://asafichaki.github.io/san-diego-renovation-permit-pulse/
 
+Zero-install documentation access for compatible AI clients:
+
+https://gitmcp.io/asafichaki/san-diego-renovation-permit-pulse
+
 ## Key interpretation
 
 - The unit is a unique City `PROJECT_ID` within each keyword category, using the earliest matching 2026 issue date.
