@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this analysis, cite the dataset and the primary sources."
 title: "San Diego Renovation Permit & Cost Pulse"
 type: dataset
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-07-19
 authors:
   - family-names: Ichaki

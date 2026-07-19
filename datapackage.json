@@ -1,0 +1,51 @@
+{
+  "profile": "tabular-data-package",
+  "name": "san-diego-renovation-permit-pulse",
+  "title": "San Diego Renovation Permit & Cost Pulse",
+  "description": "Privacy-preserving 2026 aggregate analysis of City of San Diego issued renovation-related projects, paired separately with Renology planning cost ranges.",
+  "version": "1.1.0",
+  "homepage": "https://asafichaki.github.io/san-diego-renovation-permit-pulse/",
+  "created": "2026-07-19",
+  "keywords": ["San Diego", "building permits", "renovation", "remodeling", "open data", "housing"],
+  "contributors": [{"title": "Renology (JOYOAI LLC)", "role": "publisher"}],
+  "sources": [
+    {"title": "City of San Diego — Approvals for development projects", "path": "https://data.sandiego.gov/datasets/development-permits/"},
+    {"title": "Renology Renovation Cost Index", "path": "https://www.therenology.com/cost-index"}
+  ],
+  "resources": [
+    {
+      "name": "category-summary",
+      "path": "data/category-summary.csv",
+      "profile": "tabular-data-resource",
+      "schema": {"fields": [
+        {"name": "category", "type": "string"},
+        {"name": "issued_projects", "type": "integer"},
+        {"name": "projects_with_elapsed_days", "type": "integer"},
+        {"name": "median_elapsed_calendar_days", "type": "integer"},
+        {"name": "p25_elapsed_calendar_days", "type": "integer"},
+        {"name": "p75_elapsed_calendar_days", "type": "integer"}
+      ]}
+    },
+    {
+      "name": "monthly-category-counts",
+      "path": "data/monthly-category-counts.csv",
+      "profile": "tabular-data-resource",
+      "schema": {"fields": [
+        {"name": "month", "type": "yearmonth"},
+        {"name": "category", "type": "string"},
+        {"name": "issued_projects", "type": "integer"}
+      ]}
+    },
+    {
+      "name": "san-diego-cost-ranges",
+      "path": "data/san-diego-cost-ranges.csv",
+      "profile": "tabular-data-resource",
+      "schema": {"fields": [
+        {"name": "category", "type": "string"},
+        {"name": "low_usd", "type": "integer"},
+        {"name": "high_usd", "type": "integer"},
+        {"name": "price_basis", "type": "string"}
+      ]}
+    }
+  ]
+}

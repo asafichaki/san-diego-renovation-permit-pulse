@@ -1,6 +1,6 @@
 {
   "name": "san-diego-renovation-permit-pulse",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "description": "Reproducible, privacy-preserving analysis of City of San Diego renovation permit activity paired with Renology planning cost ranges.",

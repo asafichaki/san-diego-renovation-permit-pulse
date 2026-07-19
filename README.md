@@ -45,6 +45,7 @@ The build downloads the current 2026 issued-approvals CSV, keeps only relevant B
 - [`data/category-summary.csv`](data/category-summary.csv)
 - [`data/monthly-category-counts.csv`](data/monthly-category-counts.csv)
 - [`data/san-diego-cost-ranges.csv`](data/san-diego-cost-ranges.csv)
+- [`datapackage.json`](datapackage.json) — Frictionless metadata for the aggregate tables
 
 ## Primary sources
 
