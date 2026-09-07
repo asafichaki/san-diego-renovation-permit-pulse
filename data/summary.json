@@ -1,53 +1,53 @@
 {
   "title": "San Diego Renovation Permit & Cost Pulse",
   "edition": "2026 year to date",
-  "generated_at": "2026-08-31",
-  "city_source_last_modified": "2026-08-31",
-  "last_issue_date_in_analysis": "2026-08-30",
-  "relevant_unique_projects": 1951,
-  "project_category_observations": 3347,
-  "projects_with_elapsed_days": 1951,
-  "median_elapsed_calendar_days": 147,
+  "generated_at": "2026-09-07",
+  "city_source_last_modified": "2026-09-07",
+  "last_issue_date_in_analysis": "2026-09-06",
+  "relevant_unique_projects": 2007,
+  "project_category_observations": 3453,
+  "projects_with_elapsed_days": 2007,
+  "median_elapsed_calendar_days": 146,
   "categories": [
     {
       "category": "ADU",
-      "issued_projects": 885,
-      "projects_with_elapsed_days": 885,
-      "median_elapsed_calendar_days": 257,
+      "issued_projects": 906,
+      "projects_with_elapsed_days": 906,
+      "median_elapsed_calendar_days": 260,
       "p25_elapsed_calendar_days": 152,
-      "p75_elapsed_calendar_days": 474
+      "p75_elapsed_calendar_days": 481
     },
     {
       "category": "Kitchen",
-      "issued_projects": 475,
-      "projects_with_elapsed_days": 475,
+      "issued_projects": 492,
+      "projects_with_elapsed_days": 492,
       "median_elapsed_calendar_days": 72,
       "p25_elapsed_calendar_days": 20,
-      "p75_elapsed_calendar_days": 184
+      "p75_elapsed_calendar_days": 179
     },
     {
       "category": "Bathroom",
-      "issued_projects": 832,
-      "projects_with_elapsed_days": 832,
-      "median_elapsed_calendar_days": 57,
-      "p25_elapsed_calendar_days": 6,
-      "p75_elapsed_calendar_days": 173
+      "issued_projects": 859,
+      "projects_with_elapsed_days": 859,
+      "median_elapsed_calendar_days": 56,
+      "p25_elapsed_calendar_days": 7,
+      "p75_elapsed_calendar_days": 170
     },
     {
       "category": "Roofing",
-      "issued_projects": 66,
-      "projects_with_elapsed_days": 66,
-      "median_elapsed_calendar_days": 243,
+      "issued_projects": 67,
+      "projects_with_elapsed_days": 67,
+      "median_elapsed_calendar_days": 240,
       "p25_elapsed_calendar_days": 87,
       "p75_elapsed_calendar_days": 313
     },
     {
       "category": "General remodel",
-      "issued_projects": 1089,
-      "projects_with_elapsed_days": 1089,
+      "issued_projects": 1129,
+      "projects_with_elapsed_days": 1129,
       "median_elapsed_calendar_days": 72,
       "p25_elapsed_calendar_days": 11,
-      "p75_elapsed_calendar_days": 213
+      "p75_elapsed_calendar_days": 215
     }
   ],
   "monthly": [
@@ -204,7 +204,7 @@
     {
       "month": "2026-07",
       "category": "ADU",
-      "issued_projects": 113
+      "issued_projects": 112
     },
     {
       "month": "2026-07",
@@ -224,22 +224,22 @@
     {
       "month": "2026-07",
       "category": "General remodel",
-      "issued_projects": 164
+      "issued_projects": 163
     },
     {
       "month": "2026-08",
       "category": "ADU",
-      "issued_projects": 88
+      "issued_projects": 95
     },
     {
       "month": "2026-08",
       "category": "Kitchen",
-      "issued_projects": 57
+      "issued_projects": 60
     },
     {
       "month": "2026-08",
       "category": "Bathroom",
-      "issued_projects": 107
+      "issued_projects": 109
     },
     {
       "month": "2026-08",
@@ -249,7 +249,32 @@
     {
       "month": "2026-08",
       "category": "General remodel",
-      "issued_projects": 135
+      "issued_projects": 140
+    },
+    {
+      "month": "2026-09",
+      "category": "ADU",
+      "issued_projects": 15
+    },
+    {
+      "month": "2026-09",
+      "category": "Kitchen",
+      "issued_projects": 14
+    },
+    {
+      "month": "2026-09",
+      "category": "Bathroom",
+      "issued_projects": 25
+    },
+    {
+      "month": "2026-09",
+      "category": "Roofing",
+      "issued_projects": 1
+    },
+    {
+      "month": "2026-09",
+      "category": "General remodel",
+      "issued_projects": 36
     }
   ],
   "costs": [
