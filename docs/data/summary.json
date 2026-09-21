@@ -1,53 +1,53 @@
 {
   "title": "San Diego Renovation Permit & Cost Pulse",
   "edition": "2026 year to date",
-  "generated_at": "2026-09-14",
-  "city_source_last_modified": "2026-09-14",
-  "last_issue_date_in_analysis": "2026-09-13",
-  "relevant_unique_projects": 2054,
-  "project_category_observations": 3534,
-  "projects_with_elapsed_days": 2054,
-  "median_elapsed_calendar_days": 146,
+  "generated_at": "2026-09-21",
+  "city_source_last_modified": "2026-09-21",
+  "last_issue_date_in_analysis": "2026-09-19",
+  "relevant_unique_projects": 2107,
+  "project_category_observations": 3632,
+  "projects_with_elapsed_days": 2107,
+  "median_elapsed_calendar_days": 145,
   "categories": [
     {
       "category": "ADU",
-      "issued_projects": 920,
-      "projects_with_elapsed_days": 920,
-      "median_elapsed_calendar_days": 260,
+      "issued_projects": 943,
+      "projects_with_elapsed_days": 943,
+      "median_elapsed_calendar_days": 259,
       "p25_elapsed_calendar_days": 151,
       "p75_elapsed_calendar_days": 481
     },
     {
       "category": "Kitchen",
-      "issued_projects": 504,
-      "projects_with_elapsed_days": 504,
-      "median_elapsed_calendar_days": 72,
-      "p25_elapsed_calendar_days": 21,
-      "p75_elapsed_calendar_days": 179
+      "issued_projects": 522,
+      "projects_with_elapsed_days": 522,
+      "median_elapsed_calendar_days": 71,
+      "p25_elapsed_calendar_days": 22,
+      "p75_elapsed_calendar_days": 177
     },
     {
       "category": "Bathroom",
-      "issued_projects": 878,
-      "projects_with_elapsed_days": 878,
+      "issued_projects": 905,
+      "projects_with_elapsed_days": 905,
       "median_elapsed_calendar_days": 57,
       "p25_elapsed_calendar_days": 7,
-      "p75_elapsed_calendar_days": 170
+      "p75_elapsed_calendar_days": 172
     },
     {
       "category": "Roofing",
-      "issued_projects": 70,
-      "projects_with_elapsed_days": 70,
-      "median_elapsed_calendar_days": 243,
+      "issued_projects": 71,
+      "projects_with_elapsed_days": 71,
+      "median_elapsed_calendar_days": 245,
       "p25_elapsed_calendar_days": 87,
       "p75_elapsed_calendar_days": 314
     },
     {
       "category": "General remodel",
-      "issued_projects": 1162,
-      "projects_with_elapsed_days": 1162,
+      "issued_projects": 1191,
+      "projects_with_elapsed_days": 1191,
       "median_elapsed_calendar_days": 73,
-      "p25_elapsed_calendar_days": 12,
-      "p75_elapsed_calendar_days": 215
+      "p25_elapsed_calendar_days": 13,
+      "p75_elapsed_calendar_days": 214
     }
   ],
   "monthly": [
@@ -254,56 +254,56 @@
     {
       "month": "2026-09",
       "category": "ADU",
-      "issued_projects": 29
+      "issued_projects": 52
     },
     {
       "month": "2026-09",
       "category": "Kitchen",
-      "issued_projects": 26
-    },
-    {
-      "month": "2026-09",
-      "category": "Bathroom",
       "issued_projects": 44
     },
     {
       "month": "2026-09",
+      "category": "Bathroom",
+      "issued_projects": 71
+    },
+    {
+      "month": "2026-09",
       "category": "Roofing",
-      "issued_projects": 4
+      "issued_projects": 5
     },
     {
       "month": "2026-09",
       "category": "General remodel",
-      "issued_projects": 69
+      "issued_projects": 98
     }
   ],
   "costs": [
     {
-      "category": "Roofing",
+      "category": "Roofing & siding",
       "low_usd": 15000,
       "high_usd": 24000,
       "price_basis": "total_project_planning_range"
     },
     {
-      "category": "Outdoor Living",
+      "category": "Outdoor living",
       "low_usd": 24000,
       "high_usd": 44000,
       "price_basis": "total_project_planning_range"
     },
     {
-      "category": "Bathroom",
+      "category": "Bathroom remodeling",
       "low_usd": 33000,
       "high_usd": 55000,
       "price_basis": "total_project_planning_range"
     },
     {
-      "category": "Kitchen",
+      "category": "Kitchen remodeling",
       "low_usd": 61000,
       "high_usd": 99000,
       "price_basis": "total_project_planning_range"
     },
     {
-      "category": "Adu Garage",
+      "category": "ADU / garage conversion",
       "low_usd": 200000,
       "high_usd": 350000,
       "price_basis": "total_project_planning_range"
