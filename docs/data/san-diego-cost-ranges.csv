@@ -1,5 +1,8 @@
 category,low_usd,high_usd,price_basis
+Flooring,4400,20000,total_project_planning_range
+Driveways,13000,28000,total_project_planning_range
 Roofing & siding,15000,24000,total_project_planning_range
+Decks Pergolas,16000,38000,total_project_planning_range
 Outdoor living,24000,44000,total_project_planning_range
 Bathroom remodeling,33000,55000,total_project_planning_range
 Kitchen remodeling,61000,99000,total_project_planning_range
